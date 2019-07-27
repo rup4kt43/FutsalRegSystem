@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "802928733508",
+    "firebase_url": "https://futsal-reservation-system.firebaseio.com",
+    "project_id": "futsal-reservation-system",
+    "storage_bucket": "futsal-reservation-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802928733508:android:260cbdf41a4ec49e",
+        "android_client_info": {
+          "package_name": "com.example.futsalregsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802928733508-atiogjij4ns5qfcv249i2c18j3mlqa2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.futsalregsystem",
+            "certificate_hash": "702f8c966dcbb91c9ea4f7d81339b01c34cad65c"
+          }
+        },
+        {
+          "client_id": "802928733508-2bdu1pscpuqaem5n3p8q0k447n3rstc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrM5wGrUM7lsq4AspbbVP-_dmG3JfWJZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802928733508-2bdu1pscpuqaem5n3p8q0k447n3rstc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

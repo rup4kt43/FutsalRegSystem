@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_rv_booking_cont"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+
+    <TextView
+
+        android:id="@+id/tv_rv_booking_cont_schedule"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:background="@drawable/button_style_unclicked"
+        android:id="@+id/btn_rv_booking_cont_book"
+        android:layout_width="0dp"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="Book" />
+
+</LinearLayout>
+
+
