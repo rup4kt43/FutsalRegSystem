@@ -2,6 +2,7 @@ package com.example.futsalregsystem.Admin.Adapters;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -59,6 +60,11 @@ public class InfoListAdapter extends RecyclerView.Adapter {
                 @Override
                 public void onClick(View v) {
                     int pos = getAdapterPosition();
+
+                    Log.e("TIME" , list.get(pos).getTime());
+                    Log.e("adfad" , list.get(pos).getDate());
+                    Log.e("TIadfadfME" , list.get(pos).getName());
+
                     context.onRecyclerItemConfirmed(pos,list.get(pos).getTime(),list.get(pos).getName(),list.get(pos).getNumber(),list.get(pos).getDate());
                 }
             });

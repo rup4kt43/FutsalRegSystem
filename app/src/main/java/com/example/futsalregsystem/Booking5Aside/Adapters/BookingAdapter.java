@@ -104,7 +104,7 @@ public class BookingAdapter extends RecyclerView.Adapter {
                             public void onClick(DialogInterface dialog, int which) {
 
 
-                                bookingFirebaseDB.cancelBooking(date, list.get(position).getTime());
+                                bookingFirebaseDB.cancelBooking(date, list.get(position).getTime(),side);
                                 context.loadPresnterSchedule(date);
                                 dialog.dismiss();
                             }

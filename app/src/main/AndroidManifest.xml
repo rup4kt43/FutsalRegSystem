@@ -15,9 +15,9 @@
         <activity android:name=".Admin.View.AdminView"></activity>
         <activity android:name=".Booking5Aside.View.BookingView" />
         <activity
-            android:name=".Login.View.LoginView"
+            android:name=".SplashScreen"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,7 +35,10 @@
         <activity android:name=".MembershipRequest.View.MemberReqView" />
         <activity android:name=".ShowBooking.View.ShowBookingView" />
         <activity android:name=".ShowOpen.View.ShowOpenView"/>
+        <activity android:name=".MyBooking.MyBooking"/>
+        <activity android:name=".Login.View.LoginView"/>
 
     </application>
+
 
 </manifest>

@@ -50,7 +50,7 @@ public class BookingFirebaseDB {
 
 
     //For changing status in firebase
-    public int changeStatus(String date, String time,String side) {
+    public int changeStatus(String date, String time, String side) {
 
         Log.e("date", date);
         Log.e("time", time);
@@ -61,13 +61,13 @@ public class BookingFirebaseDB {
 
     }
 
-    public void cancelBooking(String date, String time) {
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("Schedule").child(date).child(time);
+    public void cancelBooking(String date, String time, String side) {
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("Schedules").child(date).child(side).child(time);
         databaseReference.setValue("Book");
     }
 
 
-    public void onHold(String s, String date, String time, String uname, String pn,String side, String userEmail) {
+    public void onHold(String s, String date, String time, String uname, String pn, String side, String userEmail) {
         databaseReference = FirebaseDatabase.getInstance().getReference().child("On Hold").child("Ground").child(s).child(date).child(time);
         DatabaseReference unameRef = databaseReference.child("Usernmae");
         unameRef.setValue(uname);

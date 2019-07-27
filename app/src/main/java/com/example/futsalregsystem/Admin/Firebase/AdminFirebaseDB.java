@@ -63,6 +63,10 @@ public class AdminFirebaseDB {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 detailList.clear();
 
+                if (dataSnapshot.getChildrenCount() == 0) {
+                    return;
+                }
+
                 for (DataSnapshot date : dataSnapshot.getChildren()) {
                     String loop_date = date.getKey();
 

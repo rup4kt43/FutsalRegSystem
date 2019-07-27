@@ -26,6 +26,7 @@ import com.example.futsalregsystem.Booking5Aside.View.BookingView;
 import com.example.futsalregsystem.Home.Contracts.HomeContracts;
 import com.example.futsalregsystem.Home.Presenter.HomePresenter;
 import com.example.futsalregsystem.Login.View.LoginView;
+import com.example.futsalregsystem.MyBooking.MyBooking;
 import com.example.futsalregsystem.R;
 import com.example.futsalregsystem.UTILITES.GlobalAccessUsername;
 import com.google.firebase.auth.FirebaseAuth;
@@ -258,6 +259,7 @@ public class HomeView extends AppCompatActivity
         if (id == R.id.nav_regular) {
             startActivity(new Intent(HomeView.this, RegularView.class));
         } else if (id == R.id.nav_booking) {
+            startActivity(new Intent(HomeView.this, MyBooking.class));
 
         } else if (id == R.id.nav_slideshow) {
 
