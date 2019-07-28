@@ -29,7 +29,7 @@ public class ShowOpenFirebaseDB {
 
                         for (DataSnapshot timeSnap : sideSnap.getChildren()) {
                             ShowOpenDTO showOpenDTO = new ShowOpenDTO();
-
+w
                             String time = String.valueOf(timeSnap.getKey());
                             String status = String.valueOf(timeSnap.getValue());
                             if (status.matches("Open")) {
